@@ -1,12 +1,10 @@
 {
-  "name": "@Dominik-Reinert/components",
+  "name": "@dominik-reinert/components",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "yarn dev",
-    "build": "yarn build",
-    "start": "yarn start",
-    "lint": "yarn lint"
+    "build": "yarn tsc",
+    "lint": "lint"
   },
   "dependencies": {
     "@types/react": "^18.0.34",
@@ -17,5 +15,17 @@
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.1",
     "typescript": "^5.0.4"
-  }
+  },
+  "main": "./src/index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dominik-Reinert/components.git"
+  },
+  "author": "Dominik-Reinert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dominik-Reinert/components/issues"
+  },
+  "homepage": "https://github.com/Dominik-Reinert/components#readme",
+  "description": ""
 }
